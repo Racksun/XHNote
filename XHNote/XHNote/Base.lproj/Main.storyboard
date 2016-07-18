@@ -29,13 +29,13 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sie-HX-DaI" userLabel="Title">
-                                                    <rect key="frame" x="20" y="10" width="527" height="23"/>
+                                                    <rect key="frame" x="20" y="10" width="527" height="18"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wod-Y5-CA6" userLabel="SubTitle">
-                                                    <rect key="frame" x="20" y="33" width="527" height="10"/>
+                                                    <rect key="frame" x="20" y="28" width="527" height="15"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
@@ -44,7 +44,7 @@
                                             <constraints>
                                                 <constraint firstItem="Wod-Y5-CA6" firstAttribute="leading" secondItem="ZQv-wH-Q1Z" secondAttribute="leading" constant="20" id="1vR-jr-dY0"/>
                                                 <constraint firstItem="Wod-Y5-CA6" firstAttribute="top" secondItem="sie-HX-DaI" secondAttribute="bottom" id="9ag-uL-0rm"/>
-                                                <constraint firstAttribute="bottom" secondItem="sie-HX-DaI" secondAttribute="bottom" constant="10" id="N1p-Tq-5sN"/>
+                                                <constraint firstAttribute="bottom" secondItem="sie-HX-DaI" secondAttribute="bottom" constant="15" id="N1p-Tq-5sN"/>
                                                 <constraint firstItem="sie-HX-DaI" firstAttribute="top" secondItem="ZQv-wH-Q1Z" secondAttribute="top" constant="10" id="T91-Av-rDq"/>
                                                 <constraint firstItem="Wod-Y5-CA6" firstAttribute="leading" secondItem="ZQv-wH-Q1Z" secondAttribute="leading" constant="20" id="Tee-Ya-2z0"/>
                                                 <constraint firstItem="sie-HX-DaI" firstAttribute="leading" secondItem="ZQv-wH-Q1Z" secondAttribute="leading" constant="20" id="gkG-Lu-P08"/>

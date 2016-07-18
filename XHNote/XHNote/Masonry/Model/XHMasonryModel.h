@@ -1,5 +1,5 @@
 //
-//  XHHomeModel.h
+//  XHMasonryModel.h
 //  XHNote
 //
 //  Created by LouKe on 16/7/18.
@@ -8,8 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface XHHomeModel : NSObject
+@interface XHMasonryModel : NSObject
 @property (strong, nonatomic) NSString *title;
-@property (strong, nonatomic) NSString *subTitle;
 @property (strong, nonatomic) NSString *targetClass;
 @end

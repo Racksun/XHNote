@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05DA16E02B11F2CBE84F9BF0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 454D452EC154DC3750D42B3D /* libPods.a */; };
 		DF365C3E1D3C772400FD3D7A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF365C3D1D3C772400FD3D7A /* main.m */; };
 		DF365C411D3C772400FD3D7A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF365C401D3C772400FD3D7A /* AppDelegate.m */; };
 		DF365C471D3C772400FD3D7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF365C451D3C772400FD3D7A /* Main.storyboard */; };
@@ -19,6 +20,12 @@
 		DFEDC07A1D3CA47800E9FF4D /* XHDataSourceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DFEDC0701D3CA47800E9FF4D /* XHDataSourceManager.m */; };
 		DFEDC07B1D3CA47800E9FF4D /* XHBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFEDC0741D3CA47800E9FF4D /* XHBaseViewController.m */; };
 		DFEDC07C1D3CA47800E9FF4D /* XHHomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DFEDC0781D3CA47800E9FF4D /* XHHomeCell.m */; };
+		DFEDC0931D3CA81B00E9FF4D /* XHAnimaltionHomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DFEDC08D1D3CA81B00E9FF4D /* XHAnimaltionHomeModel.m */; };
+		DFEDC0941D3CA81B00E9FF4D /* XHAnimalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFEDC0901D3CA81B00E9FF4D /* XHAnimalViewController.m */; };
+		DFEDC0971D3CA83B00E9FF4D /* XHAnimaltionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DFEDC0961D3CA83B00E9FF4D /* XHAnimaltionCell.m */; };
+		DFEDC09F1D3CAB4D00E9FF4D /* XHMasonryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFEDC09E1D3CAB4D00E9FF4D /* XHMasonryViewController.m */; };
+		DFEDC0A31D3CAE0C00E9FF4D /* XHMasonryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DFEDC0A21D3CAE0C00E9FF4D /* XHMasonryModel.m */; };
+		DFEDC0A61D3CB38200E9FF4D /* XHMasonryDemo1Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = DFEDC0A51D3CB38200E9FF4D /* XHMasonryDemo1Controller.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +46,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		454D452EC154DC3750D42B3D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAF933A9A725C1044D5CAD4F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		DF365C391D3C772400FD3D7A /* XHNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XHNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF365C3D1D3C772400FD3D7A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DF365C3F1D3C772400FD3D7A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -64,6 +73,19 @@
 		DFEDC0741D3CA47800E9FF4D /* XHBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHBaseViewController.m; sourceTree = "<group>"; };
 		DFEDC0771D3CA47800E9FF4D /* XHHomeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHHomeCell.h; sourceTree = "<group>"; };
 		DFEDC0781D3CA47800E9FF4D /* XHHomeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHHomeCell.m; sourceTree = "<group>"; };
+		DFEDC08C1D3CA81B00E9FF4D /* XHAnimaltionHomeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHAnimaltionHomeModel.h; sourceTree = "<group>"; };
+		DFEDC08D1D3CA81B00E9FF4D /* XHAnimaltionHomeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHAnimaltionHomeModel.m; sourceTree = "<group>"; };
+		DFEDC08F1D3CA81B00E9FF4D /* XHAnimalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHAnimalViewController.h; sourceTree = "<group>"; };
+		DFEDC0901D3CA81B00E9FF4D /* XHAnimalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHAnimalViewController.m; sourceTree = "<group>"; };
+		DFEDC0951D3CA83B00E9FF4D /* XHAnimaltionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHAnimaltionCell.h; sourceTree = "<group>"; };
+		DFEDC0961D3CA83B00E9FF4D /* XHAnimaltionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHAnimaltionCell.m; sourceTree = "<group>"; };
+		DFEDC09D1D3CAB4D00E9FF4D /* XHMasonryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHMasonryViewController.h; sourceTree = "<group>"; };
+		DFEDC09E1D3CAB4D00E9FF4D /* XHMasonryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHMasonryViewController.m; sourceTree = "<group>"; };
+		DFEDC0A11D3CAE0C00E9FF4D /* XHMasonryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHMasonryModel.h; sourceTree = "<group>"; };
+		DFEDC0A21D3CAE0C00E9FF4D /* XHMasonryModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHMasonryModel.m; sourceTree = "<group>"; };
+		DFEDC0A41D3CB38200E9FF4D /* XHMasonryDemo1Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHMasonryDemo1Controller.h; sourceTree = "<group>"; };
+		DFEDC0A51D3CB38200E9FF4D /* XHMasonryDemo1Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHMasonryDemo1Controller.m; sourceTree = "<group>"; };
+		E824C89C5D17E0C136202CFB /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05DA16E02B11F2CBE84F9BF0 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +114,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5C87E0F96CD0AEC3CB36F34A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				454D452EC154DC3750D42B3D /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		73E7D6F50F7ABD1A81E33B98 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E824C89C5D17E0C136202CFB /* Pods.debug.xcconfig */,
+				AAF933A9A725C1044D5CAD4F /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		DF365C301D3C772400FD3D7A = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +138,8 @@
 				DF365C551D3C772400FD3D7A /* XHNoteTests */,
 				DF365C601D3C772400FD3D7A /* XHNoteUITests */,
 				DF365C3A1D3C772400FD3D7A /* Products */,
+				73E7D6F50F7ABD1A81E33B98 /* Pods */,
+				5C87E0F96CD0AEC3CB36F34A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -114,6 +156,8 @@
 		DF365C3B1D3C772400FD3D7A /* XHNote */ = {
 			isa = PBXGroup;
 			children = (
+				DFEDC0981D3CAAA600E9FF4D /* Masonry */,
+				DFEDC07D1D3CA55100E9FF4D /* CoreAnimaltion */,
 				DFEDC06A1D3CA3EF00E9FF4D /* Main */,
 				DFEDC0591D3C831E00E9FF4D /* XHHomeViewController.h */,
 				DFEDC05A1D3C831E00E9FF4D /* XHHomeViewController.m */,
@@ -218,6 +262,96 @@
 			path = Cell;
 			sourceTree = "<group>";
 		};
+		DFEDC07D1D3CA55100E9FF4D /* CoreAnimaltion */ = {
+			isa = PBXGroup;
+			children = (
+				DFEDC08B1D3CA81B00E9FF4D /* Model */,
+				DFEDC08E1D3CA81B00E9FF4D /* VC */,
+				DFEDC0911D3CA81B00E9FF4D /* View */,
+			);
+			path = CoreAnimaltion;
+			sourceTree = "<group>";
+		};
+		DFEDC08B1D3CA81B00E9FF4D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DFEDC08C1D3CA81B00E9FF4D /* XHAnimaltionHomeModel.h */,
+				DFEDC08D1D3CA81B00E9FF4D /* XHAnimaltionHomeModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DFEDC08E1D3CA81B00E9FF4D /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				DFEDC08F1D3CA81B00E9FF4D /* XHAnimalViewController.h */,
+				DFEDC0901D3CA81B00E9FF4D /* XHAnimalViewController.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		DFEDC0911D3CA81B00E9FF4D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DFEDC0921D3CA81B00E9FF4D /* Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DFEDC0921D3CA81B00E9FF4D /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				DFEDC0951D3CA83B00E9FF4D /* XHAnimaltionCell.h */,
+				DFEDC0961D3CA83B00E9FF4D /* XHAnimaltionCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		DFEDC0981D3CAAA600E9FF4D /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				DFEDC09B1D3CAB0700E9FF4D /* Model */,
+				DFEDC09A1D3CAAFA00E9FF4D /* View */,
+				DFEDC0991D3CAAC400E9FF4D /* VC */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		DFEDC0991D3CAAC400E9FF4D /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				DFEDC09D1D3CAB4D00E9FF4D /* XHMasonryViewController.h */,
+				DFEDC09E1D3CAB4D00E9FF4D /* XHMasonryViewController.m */,
+				DFEDC0A41D3CB38200E9FF4D /* XHMasonryDemo1Controller.h */,
+				DFEDC0A51D3CB38200E9FF4D /* XHMasonryDemo1Controller.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		DFEDC09A1D3CAAFA00E9FF4D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DFEDC0A01D3CADD600E9FF4D /* Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DFEDC09B1D3CAB0700E9FF4D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DFEDC0A11D3CAE0C00E9FF4D /* XHMasonryModel.h */,
+				DFEDC0A21D3CAE0C00E9FF4D /* XHMasonryModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DFEDC0A01D3CADD600E9FF4D /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -225,9 +359,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DF365C661D3C772400FD3D7A /* Build configuration list for PBXNativeTarget "XHNote" */;
 			buildPhases = (
+				BF1014C27C52F8099E8AE680 /* Check Pods Manifest.lock */,
 				DF365C351D3C772400FD3D7A /* Sources */,
 				DF365C361D3C772400FD3D7A /* Frameworks */,
 				DF365C371D3C772400FD3D7A /* Resources */,
+				F91B3352CCCDEE3258952476 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -343,16 +479,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		BF1014C27C52F8099E8AE680 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F91B3352CCCDEE3258952476 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DF365C351D3C772400FD3D7A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFEDC0931D3CA81B00E9FF4D /* XHAnimaltionHomeModel.m in Sources */,
+				DFEDC0A61D3CB38200E9FF4D /* XHMasonryDemo1Controller.m in Sources */,
 				DF365C411D3C772400FD3D7A /* AppDelegate.m in Sources */,
 				DFEDC07A1D3CA47800E9FF4D /* XHDataSourceManager.m in Sources */,
+				DFEDC0941D3CA81B00E9FF4D /* XHAnimalViewController.m in Sources */,
 				DFEDC05B1D3C831E00E9FF4D /* XHHomeViewController.m in Sources */,
 				DFEDC07C1D3CA47800E9FF4D /* XHHomeCell.m in Sources */,
 				DFEDC07B1D3CA47800E9FF4D /* XHBaseViewController.m in Sources */,
+				DFEDC09F1D3CAB4D00E9FF4D /* XHMasonryViewController.m in Sources */,
+				DFEDC0971D3CA83B00E9FF4D /* XHAnimaltionCell.m in Sources */,
+				DFEDC0A31D3CAE0C00E9FF4D /* XHMasonryModel.m in Sources */,
 				DFEDC0791D3CA47800E9FF4D /* XHHomeModel.m in Sources */,
 				DF365C3E1D3C772400FD3D7A /* main.m in Sources */,
 			);
@@ -493,6 +668,7 @@
 		};
 		DF365C671D3C772400FD3D7A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E824C89C5D17E0C136202CFB /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREFIX_HEADER = /Users/louke/Documents/XHNote/XHNote/XHNote/PrefixHeader.pch;
@@ -505,6 +681,7 @@
 		};
 		DF365C681D3C772400FD3D7A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAF933A9A725C1044D5CAD4F /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREFIX_HEADER = /Users/louke/Documents/XHNote/XHNote/XHNote/PrefixHeader.pch;

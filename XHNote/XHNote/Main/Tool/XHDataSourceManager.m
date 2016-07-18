@@ -8,6 +8,7 @@
 
 #import "XHDataSourceManager.h"
 #import "XHHomeModel.h"
+#import "XHMasonryModel.h"
 
 @implementation XHDataSourceManager
 //单例
@@ -21,11 +22,26 @@
 }
 
 -(void)getHomeDataSource:(void (^)(NSArray *, NSError *))block{
-    XHHomeModel *model = [[XHHomeModel alloc] init];
-    model.title = @"动画";
-    model.subTitle = @"2016-7-18";
+    XHHomeModel *model1 = [[XHHomeModel alloc] init];
+    model1.title = @"动画";
+    model1.subTitle = @"2016-7-18";
+    
+    XHHomeModel *model2 = [[XHHomeModel alloc] init];
+    model2.title = @"Masonry";
+    model2.subTitle = @"2016-7-18";
+    model2.targetClass = @"XHMasonryViewController";
     if (block) {
-        block(@[model],nil);
+        block(@[model1, model2],nil);
+    }
+}
+
+-(void)getMasonryDataSource:(void (^)(NSArray *, NSError *))block{
+    
+    XHMasonryModel *model1 = [[XHMasonryModel alloc] init];
+    model1.title = @"Masonry 的简单使用";
+    model1.targetClass = @"XHMasonryDemo1Controller";
+    if(block){
+        block(@[model1], nil);
     }
 }
 @end

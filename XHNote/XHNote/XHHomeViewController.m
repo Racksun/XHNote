@@ -33,7 +33,7 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
     return 1;
-}
+} 
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
     return [self.dataSource count];
@@ -53,5 +53,9 @@
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    XHHomeModel *model = [self.dataSource objectAtIndex:indexPath.row];
+    UIViewController *viewController = [[NSClassFromString(model.targetClass) alloc] init];
+    
+    [self.navigationController pushViewController:viewController animated:YES];
 }
 @end
