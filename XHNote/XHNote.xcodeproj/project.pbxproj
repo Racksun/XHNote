@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		DF365C3E1D3C772400FD3D7A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF365C3D1D3C772400FD3D7A /* main.m */; };
 		DF365C411D3C772400FD3D7A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF365C401D3C772400FD3D7A /* AppDelegate.m */; };
-		DF365C441D3C772400FD3D7A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF365C431D3C772400FD3D7A /* ViewController.m */; };
 		DF365C471D3C772400FD3D7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF365C451D3C772400FD3D7A /* Main.storyboard */; };
 		DF365C491D3C772400FD3D7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF365C481D3C772400FD3D7A /* Assets.xcassets */; };
 		DF365C4C1D3C772400FD3D7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF365C4A1D3C772400FD3D7A /* LaunchScreen.storyboard */; };
 		DF365C571D3C772400FD3D7A /* XHNoteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF365C561D3C772400FD3D7A /* XHNoteTests.m */; };
 		DF365C621D3C772400FD3D7A /* XHNoteUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF365C611D3C772400FD3D7A /* XHNoteUITests.m */; };
+		DFEDC05B1D3C831E00E9FF4D /* XHHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFEDC05A1D3C831E00E9FF4D /* XHHomeViewController.m */; };
+		DFEDC0791D3CA47800E9FF4D /* XHHomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DFEDC06D1D3CA47800E9FF4D /* XHHomeModel.m */; };
+		DFEDC07A1D3CA47800E9FF4D /* XHDataSourceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DFEDC0701D3CA47800E9FF4D /* XHDataSourceManager.m */; };
+		DFEDC07B1D3CA47800E9FF4D /* XHBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFEDC0741D3CA47800E9FF4D /* XHBaseViewController.m */; };
+		DFEDC07C1D3CA47800E9FF4D /* XHHomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DFEDC0781D3CA47800E9FF4D /* XHHomeCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +43,6 @@
 		DF365C3D1D3C772400FD3D7A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DF365C3F1D3C772400FD3D7A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DF365C401D3C772400FD3D7A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DF365C421D3C772400FD3D7A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		DF365C431D3C772400FD3D7A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		DF365C461D3C772400FD3D7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DF365C481D3C772400FD3D7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF365C4B1D3C772400FD3D7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +53,17 @@
 		DF365C5D1D3C772400FD3D7A /* XHNoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XHNoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF365C611D3C772400FD3D7A /* XHNoteUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XHNoteUITests.m; sourceTree = "<group>"; };
 		DF365C631D3C772400FD3D7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFEDC0591D3C831E00E9FF4D /* XHHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHHomeViewController.h; sourceTree = "<group>"; };
+		DFEDC05A1D3C831E00E9FF4D /* XHHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHHomeViewController.m; sourceTree = "<group>"; };
+		DFEDC0691D3C89E400E9FF4D /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		DFEDC06C1D3CA47800E9FF4D /* XHHomeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHHomeModel.h; sourceTree = "<group>"; };
+		DFEDC06D1D3CA47800E9FF4D /* XHHomeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHHomeModel.m; sourceTree = "<group>"; };
+		DFEDC06F1D3CA47800E9FF4D /* XHDataSourceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHDataSourceManager.h; sourceTree = "<group>"; };
+		DFEDC0701D3CA47800E9FF4D /* XHDataSourceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHDataSourceManager.m; sourceTree = "<group>"; };
+		DFEDC0731D3CA47800E9FF4D /* XHBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHBaseViewController.h; sourceTree = "<group>"; };
+		DFEDC0741D3CA47800E9FF4D /* XHBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHBaseViewController.m; sourceTree = "<group>"; };
+		DFEDC0771D3CA47800E9FF4D /* XHHomeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHHomeCell.h; sourceTree = "<group>"; };
+		DFEDC0781D3CA47800E9FF4D /* XHHomeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHHomeCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +114,11 @@
 		DF365C3B1D3C772400FD3D7A /* XHNote */ = {
 			isa = PBXGroup;
 			children = (
-				DF365C3F1D3C772400FD3D7A /* AppDelegate.h */,
+				DFEDC06A1D3CA3EF00E9FF4D /* Main */,
+				DFEDC0591D3C831E00E9FF4D /* XHHomeViewController.h */,
+				DFEDC05A1D3C831E00E9FF4D /* XHHomeViewController.m */,
 				DF365C401D3C772400FD3D7A /* AppDelegate.m */,
-				DF365C421D3C772400FD3D7A /* ViewController.h */,
-				DF365C431D3C772400FD3D7A /* ViewController.m */,
+				DF365C3F1D3C772400FD3D7A /* AppDelegate.h */,
 				DF365C451D3C772400FD3D7A /* Main.storyboard */,
 				DF365C481D3C772400FD3D7A /* Assets.xcassets */,
 				DF365C4A1D3C772400FD3D7A /* LaunchScreen.storyboard */,
@@ -118,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				DF365C3D1D3C772400FD3D7A /* main.m */,
+				DFEDC0691D3C89E400E9FF4D /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -138,6 +153,69 @@
 				DF365C631D3C772400FD3D7A /* Info.plist */,
 			);
 			path = XHNoteUITests;
+			sourceTree = "<group>";
+		};
+		DFEDC06A1D3CA3EF00E9FF4D /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				DFEDC06B1D3CA47800E9FF4D /* Model */,
+				DFEDC06E1D3CA47800E9FF4D /* Tool */,
+				DFEDC0711D3CA47800E9FF4D /* VC */,
+				DFEDC0751D3CA47800E9FF4D /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		DFEDC06B1D3CA47800E9FF4D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DFEDC06C1D3CA47800E9FF4D /* XHHomeModel.h */,
+				DFEDC06D1D3CA47800E9FF4D /* XHHomeModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DFEDC06E1D3CA47800E9FF4D /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				DFEDC06F1D3CA47800E9FF4D /* XHDataSourceManager.h */,
+				DFEDC0701D3CA47800E9FF4D /* XHDataSourceManager.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		DFEDC0711D3CA47800E9FF4D /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				DFEDC0721D3CA47800E9FF4D /* Base */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		DFEDC0721D3CA47800E9FF4D /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				DFEDC0731D3CA47800E9FF4D /* XHBaseViewController.h */,
+				DFEDC0741D3CA47800E9FF4D /* XHBaseViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		DFEDC0751D3CA47800E9FF4D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DFEDC0761D3CA47800E9FF4D /* Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DFEDC0761D3CA47800E9FF4D /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				DFEDC0771D3CA47800E9FF4D /* XHHomeCell.h */,
+				DFEDC0781D3CA47800E9FF4D /* XHHomeCell.m */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,8 +348,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF365C441D3C772400FD3D7A /* ViewController.m in Sources */,
 				DF365C411D3C772400FD3D7A /* AppDelegate.m in Sources */,
+				DFEDC07A1D3CA47800E9FF4D /* XHDataSourceManager.m in Sources */,
+				DFEDC05B1D3C831E00E9FF4D /* XHHomeViewController.m in Sources */,
+				DFEDC07C1D3CA47800E9FF4D /* XHHomeCell.m in Sources */,
+				DFEDC07B1D3CA47800E9FF4D /* XHBaseViewController.m in Sources */,
+				DFEDC0791D3CA47800E9FF4D /* XHHomeModel.m in Sources */,
 				DF365C3E1D3C772400FD3D7A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,6 +495,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = /Users/louke/Documents/XHNote/XHNote/XHNote/PrefixHeader.pch;
 				INFOPLIST_FILE = XHNote/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wxh.XHNote;
@@ -424,6 +507,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = /Users/louke/Documents/XHNote/XHNote/XHNote/PrefixHeader.pch;
 				INFOPLIST_FILE = XHNote/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wxh.XHNote;
@@ -496,6 +580,7 @@
 				DF365C681D3C772400FD3D7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DF365C691D3C772400FD3D7A /* Build configuration list for PBXNativeTarget "XHNoteTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +589,7 @@
 				DF365C6B1D3C772400FD3D7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DF365C6C1D3C772400FD3D7A /* Build configuration list for PBXNativeTarget "XHNoteUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +598,7 @@
 				DF365C6E1D3C772400FD3D7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
