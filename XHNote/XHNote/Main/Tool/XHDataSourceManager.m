@@ -40,8 +40,13 @@
     XHMasonryModel *model1 = [[XHMasonryModel alloc] init];
     model1.title = @"Masonry 的简单使用";
     model1.targetClass = @"XHMasonryDemo1Controller";
+    
+    XHMasonryModel *model2 = [[XHMasonryModel alloc] init];
+    model2.title = @"Masonry UICollectionCell的简单应用";
+    model2.targetClass = @"XHMasonryDemo2Controller";
+    
     if(block){
-        block(@[model1], nil);
+        block(@[model1, model2], nil);
     }
 }
 @end

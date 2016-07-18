@@ -15,6 +15,8 @@
 		DF365C4C1D3C772400FD3D7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF365C4A1D3C772400FD3D7A /* LaunchScreen.storyboard */; };
 		DF365C571D3C772400FD3D7A /* XHNoteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF365C561D3C772400FD3D7A /* XHNoteTests.m */; };
 		DF365C621D3C772400FD3D7A /* XHNoteUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF365C611D3C772400FD3D7A /* XHNoteUITests.m */; };
+		DFC0ABAB1D3CD8FA00DC1434 /* XHMasonryDemo2Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = DFC0ABAA1D3CD8FA00DC1434 /* XHMasonryDemo2Controller.m */; };
+		DFC0ABAE1D3CDEF600DC1434 /* XHGoodsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DFC0ABAD1D3CDEF600DC1434 /* XHGoodsCell.m */; };
 		DFEDC05B1D3C831E00E9FF4D /* XHHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFEDC05A1D3C831E00E9FF4D /* XHHomeViewController.m */; };
 		DFEDC0791D3CA47800E9FF4D /* XHHomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DFEDC06D1D3CA47800E9FF4D /* XHHomeModel.m */; };
 		DFEDC07A1D3CA47800E9FF4D /* XHDataSourceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DFEDC0701D3CA47800E9FF4D /* XHDataSourceManager.m */; };
@@ -62,6 +64,10 @@
 		DF365C5D1D3C772400FD3D7A /* XHNoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XHNoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF365C611D3C772400FD3D7A /* XHNoteUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XHNoteUITests.m; sourceTree = "<group>"; };
 		DF365C631D3C772400FD3D7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFC0ABA91D3CD8FA00DC1434 /* XHMasonryDemo2Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHMasonryDemo2Controller.h; sourceTree = "<group>"; };
+		DFC0ABAA1D3CD8FA00DC1434 /* XHMasonryDemo2Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHMasonryDemo2Controller.m; sourceTree = "<group>"; };
+		DFC0ABAC1D3CDEF600DC1434 /* XHGoodsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHGoodsCell.h; sourceTree = "<group>"; };
+		DFC0ABAD1D3CDEF600DC1434 /* XHGoodsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHGoodsCell.m; sourceTree = "<group>"; };
 		DFEDC0591D3C831E00E9FF4D /* XHHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHHomeViewController.h; sourceTree = "<group>"; };
 		DFEDC05A1D3C831E00E9FF4D /* XHHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHHomeViewController.m; sourceTree = "<group>"; };
 		DFEDC0691D3C89E400E9FF4D /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
@@ -324,6 +330,8 @@
 				DFEDC09E1D3CAB4D00E9FF4D /* XHMasonryViewController.m */,
 				DFEDC0A41D3CB38200E9FF4D /* XHMasonryDemo1Controller.h */,
 				DFEDC0A51D3CB38200E9FF4D /* XHMasonryDemo1Controller.m */,
+				DFC0ABA91D3CD8FA00DC1434 /* XHMasonryDemo2Controller.h */,
+				DFC0ABAA1D3CD8FA00DC1434 /* XHMasonryDemo2Controller.m */,
 			);
 			path = VC;
 			sourceTree = "<group>";
@@ -348,6 +356,8 @@
 		DFEDC0A01D3CADD600E9FF4D /* Cell */ = {
 			isa = PBXGroup;
 			children = (
+				DFC0ABAC1D3CDEF600DC1434 /* XHGoodsCell.h */,
+				DFC0ABAD1D3CDEF600DC1434 /* XHGoodsCell.m */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -518,10 +528,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				DFEDC0931D3CA81B00E9FF4D /* XHAnimaltionHomeModel.m in Sources */,
+				DFC0ABAE1D3CDEF600DC1434 /* XHGoodsCell.m in Sources */,
 				DFEDC0A61D3CB38200E9FF4D /* XHMasonryDemo1Controller.m in Sources */,
 				DF365C411D3C772400FD3D7A /* AppDelegate.m in Sources */,
 				DFEDC07A1D3CA47800E9FF4D /* XHDataSourceManager.m in Sources */,
 				DFEDC0941D3CA81B00E9FF4D /* XHAnimalViewController.m in Sources */,
+				DFC0ABAB1D3CD8FA00DC1434 /* XHMasonryDemo2Controller.m in Sources */,
 				DFEDC05B1D3C831E00E9FF4D /* XHHomeViewController.m in Sources */,
 				DFEDC07C1D3CA47800E9FF4D /* XHHomeCell.m in Sources */,
 				DFEDC07B1D3CA47800E9FF4D /* XHBaseViewController.m in Sources */,
