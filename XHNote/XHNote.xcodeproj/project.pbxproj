@@ -15,8 +15,12 @@
 		DF365C4C1D3C772400FD3D7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF365C4A1D3C772400FD3D7A /* LaunchScreen.storyboard */; };
 		DF365C571D3C772400FD3D7A /* XHNoteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF365C561D3C772400FD3D7A /* XHNoteTests.m */; };
 		DF365C621D3C772400FD3D7A /* XHNoteUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF365C611D3C772400FD3D7A /* XHNoteUITests.m */; };
+		DF9E117C1D3DC01800E65234 /* GoodsDataSource in Resources */ = {isa = PBXBuildFile; fileRef = DF9E117B1D3DC01800E65234 /* GoodsDataSource */; };
+		DF9E117F1D3DC36900E65234 /* GoodsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DF9E117E1D3DC36900E65234 /* GoodsModel.m */; };
 		DFC0ABAB1D3CD8FA00DC1434 /* XHMasonryDemo2Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = DFC0ABAA1D3CD8FA00DC1434 /* XHMasonryDemo2Controller.m */; };
 		DFC0ABAE1D3CDEF600DC1434 /* XHGoodsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DFC0ABAD1D3CDEF600DC1434 /* XHGoodsCell.m */; };
+		DFC621801D3DF37A009F6970 /* DiscountPriceView.m in Sources */ = {isa = PBXBuildFile; fileRef = DFC6217F1D3DF37A009F6970 /* DiscountPriceView.m */; };
+		DFC6218A1D3DF75B009F6970 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = DFC621891D3DF75B009F6970 /* NSString+Extension.m */; };
 		DFEDC05B1D3C831E00E9FF4D /* XHHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFEDC05A1D3C831E00E9FF4D /* XHHomeViewController.m */; };
 		DFEDC0791D3CA47800E9FF4D /* XHHomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DFEDC06D1D3CA47800E9FF4D /* XHHomeModel.m */; };
 		DFEDC07A1D3CA47800E9FF4D /* XHDataSourceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DFEDC0701D3CA47800E9FF4D /* XHDataSourceManager.m */; };
@@ -64,10 +68,17 @@
 		DF365C5D1D3C772400FD3D7A /* XHNoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XHNoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF365C611D3C772400FD3D7A /* XHNoteUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XHNoteUITests.m; sourceTree = "<group>"; };
 		DF365C631D3C772400FD3D7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF9E117B1D3DC01800E65234 /* GoodsDataSource */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GoodsDataSource; sourceTree = "<group>"; };
+		DF9E117D1D3DC36900E65234 /* GoodsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoodsModel.h; sourceTree = "<group>"; };
+		DF9E117E1D3DC36900E65234 /* GoodsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoodsModel.m; sourceTree = "<group>"; };
 		DFC0ABA91D3CD8FA00DC1434 /* XHMasonryDemo2Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHMasonryDemo2Controller.h; sourceTree = "<group>"; };
 		DFC0ABAA1D3CD8FA00DC1434 /* XHMasonryDemo2Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHMasonryDemo2Controller.m; sourceTree = "<group>"; };
 		DFC0ABAC1D3CDEF600DC1434 /* XHGoodsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHGoodsCell.h; sourceTree = "<group>"; };
 		DFC0ABAD1D3CDEF600DC1434 /* XHGoodsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHGoodsCell.m; sourceTree = "<group>"; };
+		DFC6217E1D3DF37A009F6970 /* DiscountPriceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscountPriceView.h; sourceTree = "<group>"; };
+		DFC6217F1D3DF37A009F6970 /* DiscountPriceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscountPriceView.m; sourceTree = "<group>"; };
+		DFC621881D3DF75B009F6970 /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		DFC621891D3DF75B009F6970 /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
 		DFEDC0591D3C831E00E9FF4D /* XHHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHHomeViewController.h; sourceTree = "<group>"; };
 		DFEDC05A1D3C831E00E9FF4D /* XHHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHHomeViewController.m; sourceTree = "<group>"; };
 		DFEDC0691D3C89E400E9FF4D /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
@@ -162,6 +173,7 @@
 		DF365C3B1D3C772400FD3D7A /* XHNote */ = {
 			isa = PBXGroup;
 			children = (
+				DF9E117A1D3DBFE000E65234 /* Other */,
 				DFEDC0981D3CAAA600E9FF4D /* Masonry */,
 				DFEDC07D1D3CA55100E9FF4D /* CoreAnimaltion */,
 				DFEDC06A1D3CA3EF00E9FF4D /* Main */,
@@ -203,6 +215,24 @@
 				DF365C631D3C772400FD3D7A /* Info.plist */,
 			);
 			path = XHNoteUITests;
+			sourceTree = "<group>";
+		};
+		DF9E117A1D3DBFE000E65234 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				DFC621811D3DF696009F6970 /* Category */,
+				DF9E117B1D3DC01800E65234 /* GoodsDataSource */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		DFC621811D3DF696009F6970 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				DFC621881D3DF75B009F6970 /* NSString+Extension.h */,
+				DFC621891D3DF75B009F6970 /* NSString+Extension.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 		DFEDC06A1D3CA3EF00E9FF4D /* Main */ = {
@@ -339,6 +369,8 @@
 		DFEDC09A1D3CAAFA00E9FF4D /* View */ = {
 			isa = PBXGroup;
 			children = (
+				DFC6217E1D3DF37A009F6970 /* DiscountPriceView.h */,
+				DFC6217F1D3DF37A009F6970 /* DiscountPriceView.m */,
 				DFEDC0A01D3CADD600E9FF4D /* Cell */,
 			);
 			path = View;
@@ -349,6 +381,8 @@
 			children = (
 				DFEDC0A11D3CAE0C00E9FF4D /* XHMasonryModel.h */,
 				DFEDC0A21D3CAE0C00E9FF4D /* XHMasonryModel.m */,
+				DF9E117D1D3DC36900E65234 /* GoodsModel.h */,
+				DF9E117E1D3DC36900E65234 /* GoodsModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -469,6 +503,7 @@
 			files = (
 				DF365C4C1D3C772400FD3D7A /* LaunchScreen.storyboard in Resources */,
 				DF365C491D3C772400FD3D7A /* Assets.xcassets in Resources */,
+				DF9E117C1D3DC01800E65234 /* GoodsDataSource in Resources */,
 				DF365C471D3C772400FD3D7A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -531,13 +566,16 @@
 				DFC0ABAE1D3CDEF600DC1434 /* XHGoodsCell.m in Sources */,
 				DFEDC0A61D3CB38200E9FF4D /* XHMasonryDemo1Controller.m in Sources */,
 				DF365C411D3C772400FD3D7A /* AppDelegate.m in Sources */,
+				DF9E117F1D3DC36900E65234 /* GoodsModel.m in Sources */,
 				DFEDC07A1D3CA47800E9FF4D /* XHDataSourceManager.m in Sources */,
 				DFEDC0941D3CA81B00E9FF4D /* XHAnimalViewController.m in Sources */,
+				DFC6218A1D3DF75B009F6970 /* NSString+Extension.m in Sources */,
 				DFC0ABAB1D3CD8FA00DC1434 /* XHMasonryDemo2Controller.m in Sources */,
 				DFEDC05B1D3C831E00E9FF4D /* XHHomeViewController.m in Sources */,
 				DFEDC07C1D3CA47800E9FF4D /* XHHomeCell.m in Sources */,
 				DFEDC07B1D3CA47800E9FF4D /* XHBaseViewController.m in Sources */,
 				DFEDC09F1D3CAB4D00E9FF4D /* XHMasonryViewController.m in Sources */,
+				DFC621801D3DF37A009F6970 /* DiscountPriceView.m in Sources */,
 				DFEDC0971D3CA83B00E9FF4D /* XHAnimaltionCell.m in Sources */,
 				DFEDC0A31D3CAE0C00E9FF4D /* XHMasonryModel.m in Sources */,
 				DFEDC0791D3CA47800E9FF4D /* XHHomeModel.m in Sources */,
@@ -683,6 +721,7 @@
 			baseConfigurationReference = E824C89C5D17E0C136202CFB /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = YES;
 				GCC_PREFIX_HEADER = /Users/louke/Documents/XHNote/XHNote/XHNote/PrefixHeader.pch;
 				INFOPLIST_FILE = XHNote/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -696,6 +735,7 @@
 			baseConfigurationReference = AAF933A9A725C1044D5CAD4F /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = YES;
 				GCC_PREFIX_HEADER = /Users/louke/Documents/XHNote/XHNote/XHNote/PrefixHeader.pch;
 				INFOPLIST_FILE = XHNote/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

@@ -7,9 +7,10 @@
 //
 
 #import "XHMasonryDemo2Controller.h"
-
+#import "XHGoodsCell.h"
 @interface XHMasonryDemo2Controller ()<UICollectionViewDelegate, UICollectionViewDataSource>
 @property (strong, nonatomic) UICollectionView *collectionView;
+@property (strong,  nonatomic) NSArray *datasource;
 @end
 
 @implementation XHMasonryDemo2Controller
@@ -18,6 +19,9 @@
     [super viewDidLoad];
     
     [self buildCollectionView];
+    [[XHDataSourceManager shareManager] loadGoodsDataSource:^(NSArray *array, NSError *error) {
+        self.datasource = array;
+    }];
 }
 
 - (void)buildCollectionView{
@@ -34,7 +38,7 @@
         make.edges.equalTo(self.view);
     }];
     
-    [self.collectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:@"collectionId"];
+    [self.collectionView registerClass:[XHGoodsCell class] forCellWithReuseIdentifier:@"collectionId"];
 }
 
 -(NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView{
@@ -42,15 +46,15 @@
 }
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section{
-    return 30;
+    return [self.datasource count];
 }
 
 -(UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
     static NSString *collectionId = @"collectionId";
-    UICollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:collectionId forIndexPath:indexPath];
+    XHGoodsCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:collectionId forIndexPath:indexPath];
+    cell.dataSource = [self.datasource objectAtIndex:indexPath.row];
     
-    
-    cell.backgroundColor = [UIColor yellowColor];
+ //   cell.backgroundColor = [UIColor yellowColor];
     
     return cell;
 }

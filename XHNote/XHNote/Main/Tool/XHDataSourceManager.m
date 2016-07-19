@@ -9,6 +9,7 @@
 #import "XHDataSourceManager.h"
 #import "XHHomeModel.h"
 #import "XHMasonryModel.h"
+#import "GoodsModel.h"
 
 @implementation XHDataSourceManager
 //单例
@@ -49,4 +50,19 @@
         block(@[model1, model2], nil);
     }
 }
+
+-(void)loadGoodsDataSource:(void (^)(NSArray *array, NSError *))complete{
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"GoodsDataSource" ofType:nil];
+    NSData *data = [NSData dataWithContentsOfFile:path];
+    NSDictionary *json = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingAllowFragments error:nil];
+    GoodsData *goodsData = [GoodsData mj_objectWithKeyValues:json];
+    if (complete) {
+        complete(goodsData.data, nil);
+    }
+}
+
+
+
+
+
 @end

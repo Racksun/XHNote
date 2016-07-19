@@ -4,6 +4,16 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>AFNetworking.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>MJExtension.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Masonry.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -17,12 +27,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>9D036884873D3DA666B41C0AFD5D38CB</key>
+		<key>5747A22668E9C66845834863930DA6BD</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>CF4DC79A187E3210909E310A80E7CC9A</key>
+		<key>5F934BDE5ECB89F02D3FB9C86EE53BF0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>617CECE653A1D614F04ABE7C4EF42122</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D6131882DF14C3A18535A94B1934DBA4</key>
 		<dict>
 			<key>primary</key>
 			<true/>

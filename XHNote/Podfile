@@ -1,2 +1,4 @@
 pod 'Masonry'
+pod 'MJExtension'
 
+pod 'AFNetworking', '~> 3.0'

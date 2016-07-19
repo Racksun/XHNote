@@ -14,4 +14,6 @@
 //- (void)getHomeDataSource:(NSArray* (^)())block;
 - (void)getHomeDataSource:(void(^)(NSArray * array, NSError *error))block;
 - (void)getMasonryDataSource:(void(^)(NSArray *array, NSError *erro))block;
+
+- (void)loadGoodsDataSource:(void(^)(NSArray *array, NSError *error))complete;
 @end

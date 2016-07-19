@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "GoodsModel.h"
 @interface XHGoodsCell : UICollectionViewCell
-
+@property (copy, nonatomic) GoodsModel *dataSource;
 @end
